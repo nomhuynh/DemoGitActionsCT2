@@ -1,4 +1,4 @@
-name: Try Read Reame.md file # Ten quy trnh
+name: Try Read Reame.md file
 
 on:
   push:
