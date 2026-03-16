@@ -1,0 +1,19 @@
+name: Try Read Reame.md file # Ten quy trnh
+
+on:
+  push:
+    branches: ["main']
+
+jobs:
+   thuc_hanh_doc_file:
+     runs-on: ubuntu-latest
+
+     steps:
+       - name: Step 1 - Hello
+         run: echo "Hello Hutech!"
+         
+       - name: Step 2 - pull code 
+         uses: actions/checkout@v6
+
+       - name: Step 3 - Read file
+         run: cat Readme.md
